@@ -10,10 +10,29 @@
 
 @interface NSMutableArray (HeapSort)
 
+/**
+ *
+ * Translates the input to a maxHeap
+ * @param NSMutableArray theArray
+ *
+**/
 +(void)translatetoMaxHeapWithArray:(NSMutableArray*) theArray;
 
+/**
+ *
+ * Sorts the input array from smallest to largest
+ * @see translatetoMaxHeapWithArray:
+ * @param NSMutableArray the Array
+ *
+ **/
 +(void)maxHeapSortForArray:(NSMutableArray*) theArray;
 
+/**
+ *
+ * Prints Log of an array of objects with key name value
+ * @param NSMutableArray theArray
+ *
+ **/
 +(void)printArray:(NSMutableArray*)theArray;
 
 @end
